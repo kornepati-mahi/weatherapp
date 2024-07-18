@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:rgb(169, 169, 239);
+    color: white;
+}
+
+.weatherinfo{
+    text-align: center;
+    margin-top: 10%;
+    width: 500px;
+    margin-left: 440px;
+    box-shadow: 0 10px 28px green;
+    height: 450px;
+    /* backdrop-filter:blur(2); */
+}
+.weatherinfo:focus{
+    box-shadow: 0 10px 29px pink;
+    transform:scale(0.9);
+}
+.heading{
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: aqua;
+}
+#search{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: black;
+}
+#search:focus{
+    transform: scale(1.0);
+}
+#btn{
+    height: 40px;
+    margin-left: -1px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background: transparent;
+    background-color: cornflowerblue;
+}
+#btn:hover{
+    background-color: aqua;
+}
+.temp{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+.location{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+.condition{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+.humidedity{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+@media (max-width:1024px) {
+    .weatherinfo{
+        text-align: center;
+        width: 500px;
+        margin: 10px auto;
+        /* margin-left: 300px; */
+        box-shadow: 0 10px 28px green;
+        height: 450px;
+        /* backdrop-filter:blur(2); */
+    }
+}
+@media (max-width:768px) {
+    .weatherinfo{
+        text-align: center;
+        width: 500px;
+        margin: 3 auto;
+        box-shadow: 0 10px 28px green;
+        height: 450px;
+        /* backdrop-filter:blur(2); */
+    }
+}
+@media (max-width:425px) {
+    .weatherinfo{
+        text-align: center;
+        width: 500px;
+        margin: 60px auto;
+        box-shadow: 0 10px 28px green;
+        height: 450px;
+        /* backdrop-filter:blur(2); */
+    }
+}
+@media (max-width:375px) {
+    .weatherinfo{
+        text-align: center;
+        width: 500px;
+        margin: 60px auto;
+        box-shadow: 0 10px 28px green;
+        height: 450px;
+        /* backdrop-filter:blur(2); */
+    }
+}
+@media (max-width:320px) {
+    .weatherinfo{
+        text-align: center;
+        width: 500px;
+        margin: 170px auto;
+        box-shadow: 0 10px 28px green;
+        height: 450px;
+        /* backdrop-filter:blur(2); */
+    }
+}

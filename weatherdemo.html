@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body style="text-align:center;">
+    <div class="weatherinfo">
+        <div class="heading">
+            <h1>weather updates</h1>
+            <input type="text" id="search" placeholder="search city" required>
+            <button id="btn">get</button>
+        </div>
+        <div class="weatherdata">
+            <div class="temp">
+                <span style="color:green;">temprange</span>
+                <span id="temprange"></span>
+                 <span id="tempct">&#176 <span id="show">c</span>
+                </span>
+            </div>
+            <div class="location">
+                <span style="color:green;">location</span>
+                <span id="locationinfo"><span></span>
+            </div>
+            <div class="condition">
+                <span style="color:green;">weather</span>
+                <span id="conditioninfo"><span></span>
+            </div>
+            <div class="humidedity">
+                <span style="color:green;">humidity</span>
+                <span id="humidity"></span>
+                <span>%</span>
+            </div>
+        </div>
+    </div>
+    <script src="weatherapp.js"></script>
+</body>
+
+</html>
